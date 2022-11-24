@@ -1,0 +1,9 @@
+.header{
+    font-size: 4rem;
+}
+
+@media (max-width: 767px) {
+    .mobile-font{
+        font-size: 3rem;
+    }
+}

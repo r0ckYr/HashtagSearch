@@ -1,0 +1,24 @@
+.displayArea{
+    color: grey;
+    border: 3px solid rgb(46, 45, 45);
+}
+
+.sdiv{
+    width: 60%;
+}
+
+@media (max-width: 767px) {
+    .hidden-mobile {
+      display: none;
+      
+    }
+    .jsleft{
+        justify-content: end !important;
+    }
+    .mobile-font{
+        font-size: 3rem;
+    }
+    .sdiv{
+        width: 90%;
+    }
+  }
